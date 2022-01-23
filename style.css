@@ -10,3 +10,10 @@
 .navbar-nav {
   margin: 0 auto;
 }
+
+/* faq */
+
+.faq-container {
+  margin: 1.5em 0;
+  justify-content: space-around;
+}
