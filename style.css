@@ -32,6 +32,19 @@ header {
 
 /* end header */
 
+/* services */
+
+.services-text {
+  display: flex;
+  align-items: center;
+}
+
+.services-video {
+  margin: auto;
+}
+
+/* end services */
+
 /* works */
 
 .preview-img {
