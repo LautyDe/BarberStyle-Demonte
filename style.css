@@ -21,10 +21,6 @@
   margin: 0;
 }
 
-.review-text-middle {
-  margin-bottom: 53.125px;
-}
-
 .reviews-container {
   padding: 0;
 }
@@ -32,3 +28,4 @@
 .stars-img {
   width: 100%;
 }
+/* end reviews */
