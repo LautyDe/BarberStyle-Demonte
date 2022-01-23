@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 /* header */
+=======
+h2 {
+  margin: 1em 0;
+}
+
+/* header */
+
+>>>>>>> services
 .logo-img {
   width: 64px;
   height: 64px;
@@ -13,3 +22,27 @@
 }
 
 /* end header */
+<<<<<<< HEAD
+=======
+
+/* main */
+
+main {
+  padding: 0 8em;
+}
+
+/* end main */
+
+/* services */
+
+.services-text {
+  display: flex;
+  align-items: center;
+}
+
+.services-video {
+  margin: auto;
+}
+
+/* end services */
+>>>>>>> services
