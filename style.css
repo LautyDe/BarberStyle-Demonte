@@ -40,7 +40,8 @@ header {
 }
 
 .services-video {
-  margin: auto;
+  width: 100%;
+  height: 300px;
 }
 
 /* end services */
