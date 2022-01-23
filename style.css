@@ -66,3 +66,12 @@ header {
 }
 
 /* end works */
+
+/* faq */
+
+.faq-container {
+  margin: 1.5em 0;
+  justify-content: space-around;
+}
+
+/* end faq */
