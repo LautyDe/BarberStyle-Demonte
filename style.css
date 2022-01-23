@@ -1,8 +1,7 @@
-h2 {
-  margin: 1em 0;
+* {
+  border: solid 1px black;
 }
 
-/* header */
 .logo-img {
   width: 64px;
   height: 64px;
@@ -16,25 +15,23 @@ h2 {
   margin: 0 auto;
 }
 
-/* end header */
+/* works */
 
-/* main */
-
-main {
-  padding: 0 8em;
-}
-
-/* end main */
-
-/* services */
-
-.services-text {
+.preview-img {
+  width: 80%;
+  height: 55%;
   display: flex;
-  align-items: center;
+  margin: 0 auto;
+  justify-content: space-around;
 }
 
-.services-video {
-  margin: auto;
+.works-container {
+  display: flex;
+  justify-content: space-around;
 }
 
-/* end services */
+.works-text {
+  text-align: center;
+}
+
+/* end works */
