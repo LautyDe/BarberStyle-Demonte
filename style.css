@@ -1,3 +1,7 @@
+* {
+  border: solid 1px black;
+}
+
 .logo-img {
   width: 64px;
   height: 64px;
@@ -9,4 +13,22 @@
 
 .navbar-nav {
   margin: 0 auto;
+}
+
+/* reviews */
+
+.review-text {
+  margin: 0;
+}
+
+.review-text-middle {
+  margin-bottom: 53.125px;
+}
+
+.reviews-container {
+  padding: 0;
+}
+
+.stars-img {
+  width: 100%;
 }
