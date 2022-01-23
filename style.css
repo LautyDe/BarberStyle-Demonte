@@ -6,11 +6,11 @@ h2 {
   padding: 1em 0;
 }
 
-/* header */
-
 html {
   scroll-padding: 105px;
 }
+
+/* header */
 
 header {
   position: sticky;
