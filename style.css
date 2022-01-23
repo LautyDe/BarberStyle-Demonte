@@ -1,7 +1,7 @@
 * {
   border: solid 1px black;
 }
-
+/* header */
 .logo-img {
   width: 64px;
   height: 64px;
@@ -14,6 +14,8 @@
 .navbar-nav {
   margin: 0 auto;
 }
+
+/* end header */
 
 /* works */
 
