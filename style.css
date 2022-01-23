@@ -92,3 +92,18 @@ header {
 }
 
 /* end faq */
+
+/* reviews */
+
+.review-text {
+  margin: 0;
+}
+
+.reviews-container {
+  padding: 0;
+}
+
+.stars-img {
+  width: 100%;
+}
+/* end reviews */
