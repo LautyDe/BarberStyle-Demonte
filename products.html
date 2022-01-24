@@ -40,7 +40,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand" href="#start"
           ><img
             class="logo-img"
             src="/Media/Logo BarberStyle.png"
@@ -60,27 +60,27 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="#services">Services</a>
+              <a class="nav-link active" href="index.html#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#works">Works</a>
+              <a class="nav-link active" href="index.html#works">Works</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#faq">FAQ</a>
+              <a class="nav-link active" href="index.html#faq">FAQ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./products.html">Shop</a>
+              <a class="nav-link active" href="#products">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#reviews">Reviews</a>
+              <a class="nav-link active" href="index.html#reviews">Reviews</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <main>
-      <div class="container" id="works">
+    <main id="start">
+      <div class="container" id="products">
         <h2>Products</h2>
         <div class="row works-container">
           <div class="col-lg-4 col-md-12 col-sm-12 works-div">
@@ -147,20 +147,44 @@
 
     <footer>
       <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
           <div class="col-md-4 d-flex align-items-center">
-            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-              <img src="/Media/Logo BarberStyle.png" alt="Logo BarberStyle" class="footers-logo">
+            <a
+              href="#start"
+              class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+            >
+              <img
+                src="/Media/Logo BarberStyle.png"
+                alt="Logo BarberStyle"
+                class="footers-logo"
+              />
             </a>
             <span class="text-muted">&copy; Barber Style</span>
           </div>
           <!-- Los logos de las redes nos dirigiran a la pantalla de inicio de sesion de las mismas porque no hay cuentas creadas de la barberia en dichas redes -->
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-muted" href="https://twitter.com/"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-            <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+            <li class="ms-3">
+              <a class="text-muted" href="https://twitter.com/"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter" /></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="https://www.instagram.com/"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram" /></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="https://www.facebook.com/"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook" /></svg
+              ></a>
+            </li>
           </ul>
-          </footer>
+        </footer>
       </div>
     </footer>
 
