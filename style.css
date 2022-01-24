@@ -39,6 +39,15 @@ header {
 
 .navbar-nav {
   margin: 0 auto;
+  justify-content: center;
+}
+
+.nav-item {
+  padding: 0 10%;
+}
+
+.nav-item:hover {
+  transform: scale(1.5);
 }
 
 /* end header */
