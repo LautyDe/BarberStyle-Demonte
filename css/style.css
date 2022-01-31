@@ -88,4 +88,9 @@ header nav div div .navbar-nav .nav-item:hover {
   width: 100%;
 }
 
+footer .container div a .footers-logo {
+  width: 35px;
+  height: 35px;
+}
+
 /*# sourceMappingURL=style.css.map */
