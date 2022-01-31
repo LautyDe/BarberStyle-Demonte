@@ -1,0 +1,16 @@
+.start {
+  .services {
+    .row {
+      div {
+        .services-video {
+          width: 100%;
+          height: 300px;
+        }
+      }
+      .services-text {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

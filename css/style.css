@@ -44,4 +44,13 @@ header nav div div .navbar-nav .nav-item:hover {
   transform: scale(1.5);
 }
 
+.start .services .row div .services-video {
+  width: 100%;
+  height: 300px;
+}
+.start .services .row .services-text {
+  display: flex;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */
