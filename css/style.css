@@ -1,3 +1,4 @@
+/* generals */
 * {
   margin: 0;
 }
@@ -21,6 +22,8 @@ main {
   padding: 0 3em;
 }
 
+/* end generals */
+/* header */
 header {
   position: sticky;
   top: 0;
@@ -44,6 +47,8 @@ header nav div div .navbar-nav .nav-item:hover {
   transform: scale(1.5);
 }
 
+/* end header */
+/* services */
 .start .services .row div .services-video {
   width: 100%;
   height: 300px;
@@ -53,6 +58,8 @@ header nav div div .navbar-nav .nav-item:hover {
   align-items: center;
 }
 
+/* end services */
+/* works */
 .start .works .works-container {
   display: flex;
   justify-content: space-around;
@@ -68,6 +75,8 @@ header nav div div .navbar-nav .nav-item:hover {
   text-align: center;
 }
 
+/* end works */
+/* faq */
 .start .faq .faq-container {
   margin: 1.5em 0;
   justify-content: space-around;
@@ -78,6 +87,8 @@ header nav div div .navbar-nav .nav-item:hover {
   align-items: center;
 }
 
+/* end faq */
+/* reviews */
 .start .reviews .container .row .reviews-container {
   padding: 0;
 }
@@ -88,11 +99,15 @@ header nav div div .navbar-nav .nav-item:hover {
   width: 100%;
 }
 
+/* end reviews */
+/* footer */
 footer .container div a .footers-logo {
   width: 35px;
   height: 35px;
 }
 
+/* end footer */
+/* shop */
 .start .container .shops-container .shops-div:hover {
   transform: scale(1.1);
 }
@@ -111,5 +126,7 @@ footer .container div a .footers-logo {
   width: 35px;
   height: 35px;
 }
+
+/* end shop */
 
 /*# sourceMappingURL=style.css.map */
