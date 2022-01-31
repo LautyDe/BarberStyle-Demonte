@@ -53,4 +53,19 @@ header nav div div .navbar-nav .nav-item:hover {
   align-items: center;
 }
 
+.start .works .works-container {
+  display: flex;
+  justify-content: space-around;
+}
+.start .works .works-container .works-div .preview-img {
+  width: 80%;
+  height: 55%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.start .works .works-container .works-div .works-text {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
