@@ -6,8 +6,8 @@
       justify-content: space-around;
       .works-div {
         .preview-img {
-          width: 80%;
-          height: 55%;
+          width: $prv-img-width;
+          height: $prv-img-height;
           display: flex;
           margin: 0 auto;
           justify-content: space-around;
