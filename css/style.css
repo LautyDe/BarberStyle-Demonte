@@ -93,4 +93,22 @@ footer .container div a .footers-logo {
   height: 35px;
 }
 
+.start .container .shops-container .shops-div:hover {
+  transform: scale(1.1);
+}
+.start .container .shops-container .shops-div .preview-img {
+  width: 80%;
+  height: 55%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.start .container .shops-container .shops-div .shops-text {
+  margin: 0;
+}
+.start .container .shops-container .shops-div .shops-text .shop-img {
+  width: 35px;
+  height: 35px;
+}
+
 /*# sourceMappingURL=style.css.map */
