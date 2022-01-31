@@ -1,0 +1,28 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  nav {
+    div {
+      a {
+        width: 64px;
+        .logo-img {
+          width: 64px;
+          height: 64px;
+        }
+      }
+      div {
+        .navbar-nav {
+          margin: 0 auto;
+          justify-content: center;
+          .nav-item {
+            padding: 0 10%;
+            &:hover {
+              transform: scale(1.5);
+            }
+          }
+        }
+      }
+    }
+  }
+}

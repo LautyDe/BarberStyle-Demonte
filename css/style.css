@@ -1,3 +1,24 @@
-
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+header nav div a {
+  width: 64px;
+}
+header nav div a .logo-img {
+  width: 64px;
+  height: 64px;
+}
+header nav div div .navbar-nav {
+  margin: 0 auto;
+  justify-content: center;
+}
+header nav div div .navbar-nav .nav-item {
+  padding: 0 10%;
+}
+header nav div div .navbar-nav .nav-item:hover {
+  transform: scale(1.5);
+}
 
 /*# sourceMappingURL=style.css.map */
