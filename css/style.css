@@ -78,4 +78,14 @@ header nav div div .navbar-nav .nav-item:hover {
   align-items: center;
 }
 
+.start .reviews .container .row .reviews-container {
+  padding: 0;
+}
+.start .reviews .container .row .reviews-container .review-text {
+  margin: 0;
+}
+.start .reviews .container .row .reviews-container .stars-img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */

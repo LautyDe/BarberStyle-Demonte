@@ -1,0 +1,17 @@
+.start {
+  .reviews {
+    .container {
+      .row {
+        .reviews-container {
+          padding: 0;
+          .review-text {
+            margin: 0;
+          }
+          .stars-img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
