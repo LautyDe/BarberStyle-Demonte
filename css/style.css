@@ -1,3 +1,26 @@
+* {
+  margin: 0;
+}
+
+h2 {
+  padding: 1em 0;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+html {
+  scroll-padding: 105px;
+}
+
+main {
+  padding: 0 3em;
+}
+
 header {
   position: sticky;
   top: 0;
