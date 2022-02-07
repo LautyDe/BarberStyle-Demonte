@@ -1,0 +1,6 @@
+@mixin animaciones($scale) {
+  transform: $scale;
+  -webkit-transform: $scale;
+  -o-transform: $scale;
+  -moz-transform: $scale;
+}

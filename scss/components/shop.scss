@@ -4,7 +4,7 @@
     .shops-container {
       .shops-div {
         &:hover {
-          transform: scale(1.1);
+          @include animaciones(scale(1.1));
         }
         .preview-img {
           width: map-get($prv-img, prv-img-width);

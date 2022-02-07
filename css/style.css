@@ -45,7 +45,10 @@ header nav div div .navbar-nav .nav-item {
   padding: 0 10%;
 }
 header nav div div .navbar-nav .nav-item:hover {
-  transform: scale(1.5);
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  -moz-transform: scale(1.4);
 }
 
 /* end header */
@@ -111,6 +114,9 @@ footer .container div a .footers-logo {
 /* shop */
 .start .container .shops-container .shops-div:hover {
   transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -moz-transform: scale(1.1);
 }
 .start .container .shops-container .shops-div .preview-img {
   width: 80%;

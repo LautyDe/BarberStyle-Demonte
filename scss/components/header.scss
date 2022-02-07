@@ -19,7 +19,7 @@ header {
           .nav-item {
             padding: 0 10%;
             &:hover {
-              transform: scale(1.5);
+              @include animaciones(scale(1.4));
             }
           }
         }
