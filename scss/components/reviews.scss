@@ -4,12 +4,15 @@
     .container {
       .row {
         .reviews-container {
-          padding: 0;
           .review-text {
             margin: 0;
+            text-align: center;
           }
           .stars-img {
-            width: 100%;
+            width: 60%;
+            margin-bottom: 1em;
+            display: block;
+            margin: 0 auto;
           }
         }
       }

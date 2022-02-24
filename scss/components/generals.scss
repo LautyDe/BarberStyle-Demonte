@@ -5,6 +5,7 @@
 
 h2 {
   padding: 1em 0;
+  color: white;
 }
 
 h3 {
@@ -12,6 +13,11 @@ h3 {
   justify-content: center;
   height: 100%;
   align-items: center;
+  color: white;
+}
+
+p {
+  color: white;
 }
 
 html {
@@ -21,5 +27,13 @@ html {
 main {
   padding: 0 3em;
   background-color: black;
+}
+
+footer {
+  background-color: #262626;
+}
+
+body {
+  background-color: #262626;
 }
 /* end generals */
