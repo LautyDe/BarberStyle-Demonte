@@ -114,9 +114,9 @@ header nav div div .navbar-nav .nav-item:hover {
 }
 .start .reviews .container .row .reviews-container .stars-img {
   width: 60%;
-  margin-bottom: 1em;
   display: block;
   margin: 0 auto;
+  margin-bottom: 2em;
 }
 
 /* end reviews */
