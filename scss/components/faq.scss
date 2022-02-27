@@ -5,6 +5,11 @@
       margin: 1.5em 0;
       justify-content: space-around;
       div {
+        .faq-title {
+          text-align: center;
+        }
+      }
+      div {
         .faqs-text {
           height: 100%;
           display: flex;

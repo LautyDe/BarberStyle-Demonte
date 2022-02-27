@@ -100,6 +100,9 @@ header nav div div .navbar-nav .nav-item:hover {
   margin: 1.5em 0;
   justify-content: space-around;
 }
+.start .faq .faq-container div .faq-title {
+  text-align: center;
+}
 .start .faq .faq-container div .faqs-text {
   height: 100%;
   display: flex;
