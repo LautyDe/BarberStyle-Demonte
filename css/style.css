@@ -98,6 +98,11 @@ header nav div div .navbar-nav .nav-item:hover {
 .start .works .works-container .works-div .works-text {
   text-align: center;
 }
+@media only screen and (max-width: 460px) {
+  .start .works .works-container .works-div .works-text {
+    margin-bottom: 20em;
+  }
+}
 
 /* end works */
 /* faq */
@@ -125,6 +130,12 @@ header nav div div .navbar-nav .nav-item:hover {
   display: block;
   margin: 0 auto;
   margin-bottom: 2em;
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+  .start .reviews .container .row .reviews-container .stars-img {
+    width: 40%;
+    height: 40%;
+  }
 }
 
 /* end reviews */
