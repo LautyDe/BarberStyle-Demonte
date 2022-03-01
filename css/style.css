@@ -65,6 +65,11 @@ header nav div div .navbar-nav .nav-item:hover {
   -o-transform: scale(1.4);
   -moz-transform: scale(1.4);
 }
+@media only screen and (max-width: 990px) {
+  header nav div div .navbar-nav .nav-item:hover:hover {
+    display: none;
+  }
+}
 
 /* end header */
 /* services */
@@ -136,6 +141,11 @@ footer .container div a .footers-logo {
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -moz-transform: scale(1.1);
+}
+@media only screen and (max-width: 990px) {
+  .start .container .shops-container .shops-div:hover:hover {
+    display: none;
+  }
 }
 .start .container .shops-container .shops-div .preview-img {
   width: 80%;
