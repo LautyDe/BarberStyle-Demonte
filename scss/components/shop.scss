@@ -21,9 +21,12 @@
         .shops-text {
           margin: 0;
           text-align: center;
+          @media only screen and (max-width: 432px) {
+            padding-bottom: 10em;
+          }
           .shop-img {
-            width: 45px;
-            height: 45px;
+            width: 40px;
+            height: 40px;
           }
         }
       }
