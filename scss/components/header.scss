@@ -6,14 +6,23 @@ header {
   nav {
     div {
       div {
+        width: 30%;
+        display: flex;
         a {
           width: 64px;
-          h1 {
-            margin: 0 auto;
-          }
+
           .logo-img {
             width: 64px;
             height: 64px;
+          }
+        }
+        a {
+          text-decoration: none;
+          place-self: center;
+          h1 {
+            margin: 0 auto;
+            color: white;
+            vertical-align: center;
           }
         }
       }
