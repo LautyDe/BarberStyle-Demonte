@@ -64,6 +64,7 @@ header nav div div a h1 {
   margin: 0 auto;
   color: white;
   vertical-align: center;
+  text-decoration: none;
 }
 header nav div div .navbar-nav {
   margin: 0 auto;
