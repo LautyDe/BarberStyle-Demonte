@@ -22,7 +22,7 @@ p {
 }
 
 html {
-  scroll-padding: 105px;
+  scroll-padding: 130px;
 }
 
 main {
@@ -59,15 +59,12 @@ header nav div div .navbar-nav {
 header nav div div .navbar-nav .nav-item {
   padding: 0 10%;
 }
-header nav div div .navbar-nav .nav-item:hover {
-  transform: scale(1.4);
-  -webkit-transform: scale(1.4);
-  -o-transform: scale(1.4);
-  -moz-transform: scale(1.4);
-}
-@media only screen and (max-width: 990px) {
-  header nav div div .navbar-nav .nav-item:hover:hover {
-    display: none;
+@media only screen and (min-width: 992px) {
+  header nav div div .navbar-nav .nav-item:hover {
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    -moz-transform: scale(1.4);
   }
 }
 
