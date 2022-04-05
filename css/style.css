@@ -185,10 +185,10 @@ footer .container div a .footers-logo {
     padding-bottom: 10em;
   }
 }
-.start .container .shops-container div {
+.start .container .shops-container .shops-div .shops-info {
   color: white;
 }
-.start .container .shops-container div .shop-img {
+.start .container .shops-container .shops-div .shops-info .shop-img {
   width: 40px;
   height: 40px;
 }
