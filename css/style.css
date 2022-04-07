@@ -185,12 +185,29 @@ footer .container div a .footers-logo {
     padding-bottom: 10em;
   }
 }
-.start .container .shops-container .shops-div .shops-info {
+.start .container .shops-container .shops-div .shop-father .shop-info {
+  display: inline;
   color: white;
 }
-.start .container .shops-container .shops-div .shops-info .shop-img {
+.start .container .shops-container .shops-div .shop-father .shop-info .shop-img {
   width: 40px;
   height: 40px;
+}
+.start .container .shops-container .shops-div .shop-father .shopBtns {
+  display: inline;
+  color: white;
+}
+.start .container .shops-container .shops-div .shop-father .shopBtns .plusButton {
+  background-color: green;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+.start .container .shops-container .shops-div .shop-father .shopBtns .minusButton {
+  background-color: red;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
 }
 
 /* end shop */
