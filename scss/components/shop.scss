@@ -38,13 +38,17 @@
             display: inline;
             color: white;
             .plusButton {
-              background-color: green;
+              background-color: rgb(56, 144, 56);
+              width: 40px;
+              height: 40px;
               text-align: center;
               color: white;
               border-radius: 10px;
             }
             .minusButton {
               background-color: red;
+              width: 40px;
+              height: 40px;
               text-align: center;
               color: white;
               border-radius: 10px;

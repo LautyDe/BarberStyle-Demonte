@@ -1,15 +1,27 @@
 function shopBtn() {
-  let plusButton = document.createElement("button");
-  plusButton.setAttribute("class", "plusButton");
+  const btn1 = document.querySelector("#btn1");
+  btn1.innerHTML =
+    "<button class='plusButton'>+</button> <button class='minusButton'>-</button>";
 
-  let minusButton = document.createElement("button");
-  minusButton.setAttribute("class", "minusButton");
+  const btn2 = document.querySelector("#btn2");
+  btn2.innerHTML =
+    "<button class='plusButton'>+</button> <button class='minusButton'>-</button>";
 
-  const buttons = document.getElementsByClassName("shopBtns");
+  const btn3 = document.querySelector("#btn3");
+  btn3.innerHTML =
+    "<button class='plusButton'>+</button> <button class='minusButton'>-</button>";
 
-  document.getElementsByClassName("shopBtns");
+  const btn4 = document.querySelector("#btn4");
+  btn4.innerHTML =
+    "<button class='plusButton'>+</button> <button class='minusButton'>-</button>";
 
-  document.body.appendChild(minusButton);
+  const btn5 = document.querySelector("#btn5");
+  btn5.innerHTML =
+    "<button class='plusButton'>+</button> <button class='minusButton'>-</button>";
+
+  const btn6 = document.querySelector("#btn6");
+  btn6.innerHTML =
+    "<button class='plusButton'>+</button> <button class='minusButton'>-</button>";
 }
 
 shopBtn();
