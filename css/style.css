@@ -186,12 +186,14 @@ footer .container div a .footers-logo {
   }
 }
 .start .container .shops-container .shops-div .shop-father .shop-info {
+  margin: 0 auto;
   display: inline;
   color: white;
 }
 .start .container .shops-container .shops-div .shop-father .shop-info .shop-img {
   width: 40px;
   height: 40px;
+  margin: 0 auto;
 }
 .start .container .shops-container .shops-div .shop-father .shopBtns {
   display: inline;
@@ -199,16 +201,16 @@ footer .container div a .footers-logo {
 }
 .start .container .shops-container .shops-div .shop-father .shopBtns .plusButton {
   background-color: #389038;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   text-align: center;
   color: white;
   border-radius: 10px;
 }
 .start .container .shops-container .shops-div .shop-father .shopBtns .minusButton {
   background-color: red;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   text-align: center;
   color: white;
   border-radius: 10px;
