@@ -158,10 +158,10 @@ footer .container div a .footers-logo {
 /* end footer */
 /* shop */
 .start .container .shops-container .shops-div:hover {
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  -moz-transform: scale(1.1);
+  transform: scale(1.033);
+  -webkit-transform: scale(1.033);
+  -o-transform: scale(1.033);
+  -moz-transform: scale(1.033);
 }
 @media only screen and (max-width: 990px) {
   .start .container .shops-container .shops-div:hover:hover {

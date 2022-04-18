@@ -4,7 +4,7 @@
     .shops-container {
       .shops-div {
         &:hover {
-          @include animaciones(scale(1.1));
+          @include animaciones(scale(1.033));
           @media only screen and (max-width: 990px) {
             &:hover {
               display: none;
