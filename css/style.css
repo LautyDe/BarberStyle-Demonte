@@ -175,6 +175,11 @@ footer .container div a .footers-logo {
   margin: 0 auto;
   justify-content: space-around;
 }
+.start .container .shops-container .shops-div .product-title {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
 .start .container .shops-container .shops-div .shops-text {
   margin: 0;
   text-align: center;
