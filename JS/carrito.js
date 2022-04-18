@@ -25,3 +25,12 @@ function shopBtn() {
 }
 
 shopBtn();
+
+const tienda = [
+  { id: 1, producto: shaver, precio: 6799 },
+  { id: 2, producto: shaver, precio: 13999 },
+  { id: 3, producto: shaver, precio: 9999 },
+  { id: 4, producto: navaja, precio: 2799 },
+  { id: 5, producto: navaja, precio: 3999 },
+  { id: 6, producto: navaja, precio: 1399 },
+];
