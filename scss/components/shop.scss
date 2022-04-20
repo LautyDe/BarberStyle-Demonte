@@ -20,7 +20,7 @@
           justify-content: space-around;
         }
 
-        .product-title {
+        .productTitle {
           color: white;
           text-align: center;
           margin: 0;
@@ -43,6 +43,9 @@
               width: 40px;
               height: 40px;
               margin: 0 auto;
+            }
+            .price {
+              display: inline;
             }
           }
           .shopBtns {
