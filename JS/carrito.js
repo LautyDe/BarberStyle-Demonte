@@ -27,9 +27,9 @@ function shopBtn() {
 shopBtn();
 
 class Product {
-  constructor(nombre, precio) {
-    this.nombre = nombre;
-    this.precio = precio;
+  constructor(name, price) {
+    this.name = name;
+    this.price = price;
   }
 }
 
@@ -39,3 +39,44 @@ const ShaverKemei = new Product("Shaver Kemei", 9999);
 const NavajaBlack = new Product("Navaja Black", 2799);
 const NavajaRodger = new Product("Navaja Rodger", 3999);
 const NavajaStandard = new Product("Navaja Standard", 1399);
+
+const Cart = [];
+
+function addToCart(Product) {
+  Cart.push(Product);
+  console.log(Cart);
+}
+
+function removeFromCart(Product) {
+  /* const remove = Cart.indexOf(Product.name);
+  remove !== -1 && Cart.splice(remove, 1);
+  console.log(remove); */
+}
+
+document.querySelector("#plusOne").addEventListener("click", () => {
+  addToCart(ShaverGBS);
+});
+
+document.querySelector("#plusTwo").addEventListener("click", () => {
+  addToCart(ShaverBelProf);
+});
+
+document.querySelector("#plusThree").addEventListener("click", () => {
+  addToCart(ShaverKemei);
+});
+
+document.querySelector("#plusFour").addEventListener("click", () => {
+  addToCart(ShaverBelProf);
+});
+
+document.querySelector("#plusFive").addEventListener("click", () => {
+  addToCart(NavajaBlack);
+});
+
+document.querySelector("#plusSix").addEventListener("click", () => {
+  addToCart(NavajaRodger);
+});
+
+document.querySelector("#minusOne").addEventListener("click", () => {
+  removeFromCart("NavajaStandard");
+});
