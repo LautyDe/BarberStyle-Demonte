@@ -35,8 +35,11 @@
         }
 
         .shop-father {
+          display: flex;
+          justify-content: space-evenly;
+
           .shop-info {
-            margin: 0 auto;
+            margin: 0;
             display: inline;
             color: white;
             .shop-img {

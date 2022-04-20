@@ -189,8 +189,12 @@ footer .container div a .footers-logo {
     padding-bottom: 10em;
   }
 }
+.start .container .shops-container .shops-div .shop-father {
+  display: flex;
+  justify-content: space-evenly;
+}
 .start .container .shops-container .shops-div .shop-father .shop-info {
-  margin: 0 auto;
+  margin: 0;
   display: inline;
   color: white;
 }
