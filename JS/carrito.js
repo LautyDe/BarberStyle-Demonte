@@ -26,29 +26,6 @@ function shopBtn() {
 
 shopBtn();
 
-/* const cart = new Cart([]);
-
-const addToCartButtons = document.querySelectorAll(".plusButton");
-
-addToCartButtons.forEach((addToCart) => {
-  addToCart.addEventListener("click", addProductClicked);
-});
-
-function addProductClicked(event) {
-  const plusClicked = event.target;
-  const item = plusClicked.closest(".shops-div");
-  const itemTitle = item.querySelector(".productTitle").textContent;
-  const itemPrice = item.querySelector(".price").textContent;
-  addProduct(itemTitle, itemPrice);
-} */
-
-/* { id: 1, producto: "shaver", precio: 6799 },
-{ id: 2, producto: "shaver", precio: 13999 },
-{ id: 3, producto: "shaver", precio: 9999 },
-{ id: 4, producto: "navaja", precio: 2799 },
-{ id: 5, producto: "navaja", precio: 3999 },
-{ id: 6, producto: "navaja", precio: 1399 }, */
-
 class Product {
   constructor(nombre, precio) {
     this.nombre = nombre;
@@ -57,9 +34,8 @@ class Product {
 }
 
 const ShaverGBS = new Product("Shaver GBS", 6799);
-const ShaverBelProf = new Product("Shaver GBS", 13999);
-const ShaverKemei = new Product("Shaver GBS", 9999);
-const NavajaBlack = new Product("Shaver GBS", 2799);
-const NavajaRodger = new Product("Shaver GBS", 3999);
-const NavajaStandard = new Product("Shaver GBS", 1399);
-console.log(ShaverGBS);
+const ShaverBelProf = new Product("Shaver BelProf", 13999);
+const ShaverKemei = new Product("Shaver Kemei", 9999);
+const NavajaBlack = new Product("Navaja Black", 2799);
+const NavajaRodger = new Product("Navaja Rodger", 3999);
+const NavajaStandard = new Product("Navaja Standard", 1399);
