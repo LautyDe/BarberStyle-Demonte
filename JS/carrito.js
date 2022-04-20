@@ -48,9 +48,9 @@ function addToCart(Product) {
 }
 
 function removeFromCart(Product) {
-  /* const remove = Cart.indexOf(Product.name);
+  const remove = Cart.indexOf(Product);
   remove !== -1 && Cart.splice(remove, 1);
-  console.log(remove); */
+  console.log(Cart);
 }
 
 document.querySelector("#plusOne").addEventListener("click", () => {
@@ -66,17 +66,37 @@ document.querySelector("#plusThree").addEventListener("click", () => {
 });
 
 document.querySelector("#plusFour").addEventListener("click", () => {
-  addToCart(ShaverBelProf);
-});
-
-document.querySelector("#plusFive").addEventListener("click", () => {
   addToCart(NavajaBlack);
 });
 
-document.querySelector("#plusSix").addEventListener("click", () => {
+document.querySelector("#plusFive").addEventListener("click", () => {
   addToCart(NavajaRodger);
 });
 
+document.querySelector("#plusSix").addEventListener("click", () => {
+  addToCart(NavajaStandard);
+});
+
 document.querySelector("#minusOne").addEventListener("click", () => {
-  removeFromCart("NavajaStandard");
+  removeFromCart(ShaverGBS);
+});
+
+document.querySelector("#minusTwo").addEventListener("click", () => {
+  removeFromCart(ShaverBelProf);
+});
+
+document.querySelector("#minusThree").addEventListener("click", () => {
+  removeFromCart(ShaverKemei);
+});
+
+document.querySelector("#minusFour").addEventListener("click", () => {
+  removeFromCart(NavajaBlack);
+});
+
+document.querySelector("#minusFive").addEventListener("click", () => {
+  removeFromCart(NavajaRodger);
+});
+
+document.querySelector("#minusSix").addEventListener("click", () => {
+  removeFromCart(NavajaStandard);
 });
