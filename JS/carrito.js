@@ -42,15 +42,31 @@ const NavajaStandard = new Product("Navaja Standard", 1399);
 
 const Cart = [];
 
+function addAlert() {
+  Swal.fire({
+    icon: "success",
+    title: "El producto ha sido agregado al carrito!",
+  });
+}
+
+function removeAlert() {
+  Swal.fire({
+    icon: "error",
+    title: "Su producto ha sido removido del carrito",
+  });
+}
+
 function addToCart(Product) {
   Cart.push(Product);
   console.log(Cart);
+  addAlert();
 }
 
 function removeFromCart(Product) {
   const remove = Cart.indexOf(Product);
   remove !== -1 && Cart.splice(remove, 1);
   console.log(Cart);
+  removeAlert();
 }
 
 document.querySelector("#plusOne").addEventListener("click", () => {
