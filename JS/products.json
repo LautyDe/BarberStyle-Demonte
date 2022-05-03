@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nombre": "Shaver GBS",
+    "precio": 6799,
+    "description": "Tamaño ligero y compacto para máxima comodidad y control. La potente batería de iones de litio ofrece 60 minutos de tiempo de funcionamiento inalámbrico con una sola carga. Con una clasificación IPX4 de resistencia al agua."
+  },
+  {
+    "id": 2,
+    "nombre": "Shaver BelProf",
+    "precio": 13999,
+    "description": "Cuchillas de afeitado de cabeza escalonada para un afeitado más apurado. Ideal para terminar desvanecimientos y eliminar rastrojos. Ofrece hasta 80 minutos de autonomía con una sola carga. La mejor de su categoria."
+  },
+  {
+    "id": 3,
+    "nombre": "Shaver Kemei",
+    "precio": 9999,
+    "description": "Con esta afeitadora disfrutar de un producto de calidad, cuyos resultados estéticos son excelentes, es posible. Al realizar movimientos laterales, las láminas de tu afeitadora dejan tu barba o pelo con un largo ideal y brindan un corte preciso."
+  },
+  {
+    "id": 4,
+    "nombre": "Navaja Black",
+    "precio": 2799,
+    "description": "Nuestra navaja de afeitar del peluquero está diseñada para el uso profesional y barbería. Esta NAVAJA tiene una cerradura de resorte para asegurar la cuchilla en su lugar."
+  },
+  {
+    "id": 5,
+    "nombre": "Navaja Rodger",
+    "precio": 3999,
+    "description": "Esta navaja llevará a cabo las láminas del modelo profesional o como se sugiere. Valor incomparable y de excelente calidad calidad. Está diseñado para uso barbería."
+  },
+  {
+    "id": 6,
+    "nombre": "Navaja Standard",
+    "precio": 1399,
+    "description": "Navaja de acero inoxidable, con diseño ergonomico con terminacion estetica de be barberia. Ideal para cortes y terminaciones de nuca, patillas y afeitados al ras."
+  }
+]

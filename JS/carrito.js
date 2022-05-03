@@ -116,3 +116,6 @@ document.querySelector("#minusFive").addEventListener("click", () => {
 document.querySelector("#minusSix").addEventListener("click", () => {
   removeFromCart(NavajaStandard);
 });
+
+let url = "./JS/products.json";
+console.log(url);
