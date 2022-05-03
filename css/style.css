@@ -65,15 +65,18 @@ header nav div div a h1 {
   vertical-align: center;
   text-decoration: none;
 }
-header nav div div .navbar-nav {
+header nav div div {
+  color: white;
+}
+header nav div .navbar-nav {
   margin: 0 auto;
   justify-content: center;
 }
-header nav div div .navbar-nav .nav-item {
+header nav div .navbar-nav .nav-item {
   padding: 0 10%;
 }
 @media only screen and (min-width: 992px) {
-  header nav div div .navbar-nav .nav-item:hover {
+  header nav div .navbar-nav .nav-item:hover {
     transform: scale(1.4);
     -webkit-transform: scale(1.4);
     -o-transform: scale(1.4);

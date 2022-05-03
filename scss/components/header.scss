@@ -29,15 +29,16 @@ header {
       }
 
       div {
-        .navbar-nav {
-          margin: 0 auto;
-          justify-content: center;
-          .nav-item {
-            padding: 0 10%;
-            @media only screen and (min-width: 992px) {
-              &:hover {
-                @include animaciones(scale(1.4));
-              }
+        color: white;
+      }
+      .navbar-nav {
+        margin: 0 auto;
+        justify-content: center;
+        .nav-item {
+          padding: 0 10%;
+          @media only screen and (min-width: 992px) {
+            &:hover {
+              @include animaciones(scale(1.4));
             }
           }
         }
@@ -45,4 +46,5 @@ header {
     }
   }
 }
+
 /* end header */
