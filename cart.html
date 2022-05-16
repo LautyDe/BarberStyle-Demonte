@@ -28,10 +28,7 @@
     />
 
     <!-- JS -->
-    <script defer src="/JS/carrito.js"></script>
     <script defer src="/JS/darkmode.js"></script>
-    <script defer src="/JS/timeAPI.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -47,12 +44,12 @@
     />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
 
-    <title>Barber Style / Shop / Shavers / Navajas</title>
+    <title>Barber Style / Cart</title>
   </head>
   <body>
-    <!-- Bootstraps icons -->
+    <!-- Iconos de bootsrap -->
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
       <symbol id="facebook" viewBox="0 0 16 16">
         <path
@@ -112,9 +109,9 @@
                 <a class="nav-link active" href="index.html#reviews">Reviews</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#products">Shop</a>
+                <a class="nav-link active" href="./products.html">Shop</a>
               </li>
-              
+
               <li class="nav-item">
                 <a class="nav-link active" href="./cart.html">Cart</a>
               </li>
@@ -124,84 +121,7 @@
       </nav>
     </header>
 
-
-    <main id="start" class="start">
-      <div class="container" id="products">
-        <h2>Products</h2>
-        <div class="row shops-container">
-          <div class="col-lg-4 col-md-12 col-sm-12 shops-div">
-            <img
-              src="/Media/product-1.jpg"
-              alt="Corte de pelo"
-              class="preview-img"
-            /><h4 class="productTitle"> Shaver GBS</h4>
-            <p class="shops-text">
-              Tamaño ligero y compacto para máxima comodidad y control. La
-              potente batería de iones de litio ofrece 60 minutos de tiempo de
-              funcionamiento inalámbrico con una sola carga. Con una
-              clasificación IPX4 de resistencia al agua. <br/>
-              <div class="shop-father"> <div class="shop-info"><img src="/Media/carrito-shop.jpg" alt="Shop" class="shop-img" />
-              <div class="price">Price: 6.799$ </div></div> <div class="shopBtns" id="btn1"></div></div>
-            </p>
-          </div>
-          <div class="col-lg-4 col-md-12 col-sm-12 shops-div">
-            <img src="/Media/product-2.jpg" alt="Shaver" class="preview-img" /><h4 class="productTitle"> Shaver BelProf</h4>
-            <p class="shops-text">
-              Cuchillas de afeitado de cabeza escalonada para un afeitado más
-              apurado. Ideal para terminar desvanecimientos y eliminar
-              rastrojos. Ofrece hasta 80 minutos de autonomía con una sola
-              carga. La mejor de su categoria.
-              <br /> <div class="shop-father"> 
-              <div class="shop-info"><img src="/Media/carrito-shop.jpg" alt="Shop" class="shop-img" />
-              <div class="price">Price: 13.999$ </div> </div><div class="shopBtns" id="btn2"></div></div>
-            </p>
-          </div>
-          <div class="col-lg-4 col-md-12 col-sm-12 shops-div">
-            <img src="/Media/product-3.jpg" alt="Shaver" class="preview-img" /><h4 class="productTitle"> Shaver Kemei</h4>
-            <p class="shops-text">
-              Con esta afeitadora disfrutar de un producto de calidad, cuyos
-              resultados estéticos son excelentes, es posible. Al realizar
-              movimientos laterales, las láminas de tu afeitadora dejan tu barba
-              o pelo con un largo ideal y brindan un corte preciso.
-              <br /> <div class="shop-father"> 
-             <div class="shop-info"> <img src="/Media/carrito-shop.jpg" alt="Shop" class="shop-img" />
-              <div class="price">Price: 9.999$ </div> </div> <div class="shopBtns" id="btn3"></div></div>
-            </p>
-          </div>
-          <div class="col-lg-4 col-md-12 col-sm-12 shops-div">
-            <img src="/Media/product-4.jpg" alt="Shaver" class="preview-img" /><h4 class="productTitle"> Navaja Black</h4>
-            <p class="shops-text">
-              Nuestra navaja de afeitar del peluquero está diseñada para el uso
-              profesional y barbería. Esta NAVAJA tiene una cerradura de resorte
-              para asegurar la cuchilla en su lugar. <br /> <div class="shop-father"> 
-              <div class="shop-info"><img src="/Media/carrito-shop.jpg" alt="Shop" class="shop-img" />
-              <div class="price">Price: 2.799$ </div> </div><div class="shopBtns" id="btn4"></div></div>
-            </p>
-          </div>
-          <div class="col-lg-4 col-md-12 col-sm-12 shops-div">
-            <img src="/Media/product-5.jpg" alt="Navaja" class="preview-img" /><h4 class="productTitle"> Navaja Rodger</h4>
-            <p class="shops-text">
-              Esta navaja llevará a cabo las láminas del modelo profesional o
-              como se sugiere. Valor incomparable y de excelente calidad
-              calidad. Está diseñado para uso barbería. <br /> <div class="shop-father"> 
-              <div class="shop-info"><img src="/Media/carrito-shop.jpg" alt="Shop" class="shop-img" />
-              <div class="price">Price: 3.999$ </div> </div><div class="shopBtns" id="btn5"></div></div>
-            </p>
-          </div>
-          <div class="col-lg-4 col-md-12 col-sm-12 shops-div">
-            <img src="/Media/product-6.jpg" alt="Navaja" class="preview-img" /><h4 class="productTitle"> Navaja Standard</h4>
-            <p class="shops-text">
-              Navaja de acero inoxidable, con diseño ergonomico con terminacion
-              estetica de be barberia. Ideal para cortes y terminaciones de
-              nuca, patillas y afeitados al ras. <br /> <div class="shop-father"> 
-              <div class="shop-info"><img src="/Media/carrito-shop.jpg" alt="Shop" class="shop-img" />
-              <div class="price">Price: 1.399$ </div> </div><div class="shopBtns" id="btn6"></div></div>
-            </p>
-          </div>
-        </div>
-      </div>
-    </main>
-    
+    <main></main>
 
     <footer>
       <div class="container">
@@ -221,31 +141,31 @@
             </a>
             <span class="text-white">&copy; Barber Style</span>
           </div>
-
-          <div id="timeAPI"></div>
           <!-- Los logos de las redes nos dirigiran a la pantalla de inicio de sesion de las mismas porque no hay cuentas creadas de la barberia en dichas redes -->
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
             <li class="ms-3">
               <a class="text-muted" href="https://twitter.com/"
                 ><svg class="bi" width="24" height="24">
-                  <use xlink:href="#twitter" /></svg></a>
+                  <use xlink:href="#twitter" /></svg
+              ></a>
             </li>
             <li class="ms-3">
               <a class="text-muted" href="https://www.instagram.com/"
                 ><svg class="bi" width="24" height="24">
-                  <use xlink:href="#instagram" /></svg></a>
+                  <use xlink:href="#instagram" /></svg
+              ></a>
             </li>
             <li class="ms-3">
               <a class="text-muted" href="https://www.facebook.com/"
                 ><svg class="bi" width="24" height="24">
-                  <use xlink:href="#facebook" /></svg></a>
+                  <use xlink:href="#facebook" /></svg
+              ></a>
             </li>
           </ul>
           <button class="darkMode">Dark mode</button>
         </footer>
       </div>
     </footer>
-
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script

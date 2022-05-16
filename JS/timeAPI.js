@@ -7,7 +7,7 @@ fetch(url)
   });
 
 function mostrarDatos(data) {
-  const nodo = document.querySelector("#navbarNav");
+  const nodo = document.querySelector("#timeAPI");
   const div = document.createElement("div");
   div.innerHTML = `${data.datetime}`;
   nodo.appendChild(div);
