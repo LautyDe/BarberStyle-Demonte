@@ -42,6 +42,8 @@ const NavajaStandard = new Product("Navaja Standard", 1399);
 
 const Cart = [];
 
+localStorage.getItem("CARTS_KEY");
+
 function addAlert() {
   Swal.fire({
     icon: "success",
@@ -59,6 +61,7 @@ function removeAlert() {
 function addToCart(Product) {
   Cart.push(Product);
   console.log(Cart);
+  localStorage.setItem("CARTS_KEY", JSON.stringify(Cart));
   addAlert();
 }
 
@@ -66,6 +69,7 @@ function removeFromCart(Product) {
   const remove = Cart.indexOf(Product);
   remove !== -1 && Cart.splice(remove, 1);
   console.log(Cart);
+  localStorage.setItem("CARTS_KEY", JSON.stringify(Cart));
   removeAlert();
 }
 
