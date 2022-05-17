@@ -1,3 +1,16 @@
 /* cart */
+#start {
+  margin-top: 2%;
+  .cart {
+    #items {
+      .empty {
+        padding: 5% 0 0 0;
+      }
+      .empty2 {
+        margin: 0 0 15% 0;
+      }
+    }
+  }
+}
 
 /* end cart */

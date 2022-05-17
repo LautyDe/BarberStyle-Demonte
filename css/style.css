@@ -17,6 +17,14 @@ h3 {
   color: white;
 }
 
+h5 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 p {
   color: white;
 }
@@ -232,6 +240,16 @@ footer .container div div {
 
 /* end shop */
 /* cart */
+#start {
+  margin-top: 2%;
+}
+#start .cart #items .empty {
+  padding: 5% 0 0 0;
+}
+#start .cart #items .empty2 {
+  margin: 0 0 15% 0;
+}
+
 /* end cart */
 
 /*# sourceMappingURL=style.css.map */
