@@ -3,6 +3,10 @@
   margin-top: 2%;
   .cart {
     #items {
+      .full {
+        padding: 5% 0 0 0;
+        color: white;
+      }
       .empty {
         padding: 5% 0 0 0;
       }

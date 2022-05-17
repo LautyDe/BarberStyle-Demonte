@@ -40,10 +40,6 @@ const NavajaBlack = new Product("Navaja Black", 2799);
 const NavajaRodger = new Product("Navaja Rodger", 3999);
 const NavajaStandard = new Product("Navaja Standard", 1399);
 
-const Cart = [];
-
-localStorage.getItem("CARTS_KEY");
-
 function addAlert() {
   Swal.fire({
     icon: "success",
@@ -58,18 +54,28 @@ function removeAlert() {
   });
 }
 
+let myKey = JSON.parse(localStorage.getItem("CARTS_KEY"));
+let Cart = [];
+console.log(Cart);
+
+!myKey
+  ? (localStorage.setItem("CARTS_KEY", JSON.stringify(Cart)),
+    console.log("localStorage not found, creating a new one"))
+  : ((Cart = myKey), console.log("localStorage founded"), console.log(Cart));
+
 function addToCart(Product) {
   Cart.push(Product);
-  console.log(Cart);
   localStorage.setItem("CARTS_KEY", JSON.stringify(Cart));
+  console.log(localStorage.getItem("CARTS_KEY"));
+  console.log(Cart);
   addAlert();
 }
 
 function removeFromCart(Product) {
   const remove = Cart.indexOf(Product);
   remove !== -1 && Cart.splice(remove, 1);
-  console.log(Cart);
   localStorage.setItem("CARTS_KEY", JSON.stringify(Cart));
+  console.log(Cart);
   removeAlert();
 }
 

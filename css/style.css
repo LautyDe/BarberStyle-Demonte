@@ -243,6 +243,10 @@ footer .container div div {
 #start {
   margin-top: 2%;
 }
+#start .cart #items .full {
+  padding: 5% 0 0 0;
+  color: white;
+}
 #start .cart #items .empty {
   padding: 5% 0 0 0;
 }
