@@ -1,20 +1,30 @@
 /* cart */
 #start {
-  margin-top: 2%;
   .cart {
-    #items {
-      .full {
-        padding: 5% 0 0 0;
-        color: white;
+    #cartContainer {
+      #items {
+        width: 70%;
+        display: inline;
+        li {
+          color: white;
+        }
+        .empty {
+          padding: 5% 0 0 0;
+        }
+        .empty2 {
+          margin: 0 0 10% 0;
+        }
       }
-      .empty {
-        padding: 5% 0 0 0;
-        color: white;
+      #price {
+        display: inline;
+        width: 25%;
+        li {
+          color: white;
+        }
       }
-      .empty2 {
-        margin: 0 0 15% 0;
-        color: white;
-      }
+    }
+    #totalPrice {
+      color: white;
     }
   }
 }

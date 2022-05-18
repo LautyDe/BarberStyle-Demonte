@@ -240,19 +240,27 @@ footer .container div div {
 
 /* end shop */
 /* cart */
-#start {
-  margin-top: 2%;
+#start .cart #cartContainer #items {
+  width: 70%;
+  display: inline;
 }
-#start .cart #items .full {
-  padding: 5% 0 0 0;
+#start .cart #cartContainer #items li {
   color: white;
 }
-#start .cart #items .empty {
+#start .cart #cartContainer #items .empty {
   padding: 5% 0 0 0;
+}
+#start .cart #cartContainer #items .empty2 {
+  margin: 0 0 10% 0;
+}
+#start .cart #cartContainer #price {
+  display: inline;
+  width: 25%;
+}
+#start .cart #cartContainer #price li {
   color: white;
 }
-#start .cart #items .empty2 {
-  margin: 0 0 15% 0;
+#start .cart #totalPrice {
   color: white;
 }
 
