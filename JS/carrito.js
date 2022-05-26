@@ -75,6 +75,7 @@ function removeFromCart(Product) {
   const remove = Cart.indexOf(Product);
   remove !== -1 && Cart.splice(remove, 1);
   localStorage.setItem("CARTS_KEY", JSON.stringify(Cart));
+  console.log(localStorage.getItem("CARTS_KEY"));
   console.log(Cart);
   removeAlert();
 }

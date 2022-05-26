@@ -38,12 +38,13 @@ function refreshCart() {
 
 function totalIPrice() {
   const div = document.createElement("div");
-  div.innerHTML = `<div>Total: </div><div>$${key.forEach((element) => {
-    total += element.price;
-    console.log(
-      "🚀 ~ file: storage.js ~ line 44 ~ div.innerHTML=`<div>Total:</div><div>$${key.forEach ~ element.price",
-      element.price
-    );
-  })}</div>`;
+  div.innerHTML = `<div>Total: </div><div>$${totalStorage()}</div>`;
   totalPrice.append(div);
+}
+
+function totalStorage() {
+  key.forEach((element) => {
+    total += element.price;
+  });
+  return total;
 }
