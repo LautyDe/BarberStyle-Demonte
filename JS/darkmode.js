@@ -1,7 +1,7 @@
 let color = localStorage.getItem("mode");
 const myBtn = document.querySelector(".darkMode");
 
-!color
+color
   ? ((color = "#14171A"), (myBtn.innerHTML = "Gray mode"))
   : (document.body.style = `background-color:${color}`),
   color === "#14171A"
